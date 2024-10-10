@@ -214,4 +214,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .bg-memorylist { background-color: #202020; }
 
+::-webkit-scrollbar { background: #000000; width: 0.5em; }
+
+::-webkit-scrollbar-thumb { background: #ff0090; }
+
+::-webkit-scrollbar-thumb:hover { background: #aa0090; }
+
+@supports (scrollbar-color: red blue) { * { scrollbar-color: #ff0090 #000000; scrollbar-width: thin; } }
+
 /*# sourceMappingURL=agency.css.map */
